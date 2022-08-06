@@ -1,0 +1,82 @@
+body { background-color:rgb(196, 226, 226) }
+
+h1 {color: rgb(242, 19, 153); font-size: 'large' ; font-family: 'Fantasy' ,'Papyrus'; }
+h2 {color: rgb(17, 16, 17); font-size:'30px' ; font-family: 'Fantasymonospace' , 'Lucida Console'}  
+li {font-size:'30' ; }
+p {font-size: 'large'; font-weight: bold; font-style: italic;}
+
+table, th, td {
+  border:2px solid black;
+}
+table {
+    border-collapse: collapse;
+  }
+  td, th {
+    
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #c85d5d;
+  }
+  a {
+    color: hotpink;
+  }
+  a:hover {
+    color: rgb(2, 85, 22);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  .örnek{
+    width: 800px;
+    
+    }
+  div.cook {
+    display: flex;
+    
+    padding:0 10px 10px 0;
+    border: 1px solid #ccc;
+    float: left;
+  
+    width: 20%;
+    height: 450%;
+
+    
+    
+  }
+  
+  div.cook:hover {
+    
+    display: flex;
+    border: 1px solid #777;
+    flex-direction: column;
+  }
+  
+  div.cook img {
+    
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  
+  div.sugar {
+   
+    padding: 15px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+
+div.gallery  {
+  color: rgb(242, 19, 153); font-size: 'large' ; font-family: 'Fantasy' ,'Papyrus';
+  margin: auto;
+  border: 5px solid #ccc;
+  border-bottom-style:80px ;
+  float: right;
+  width: 20%;
+  height: 70px;
+  }
